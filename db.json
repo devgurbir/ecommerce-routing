@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "to": "/t-shirts",
+      "title": "T-Shirts"
+    },
+    {
+      "id": 2,
+      "to": "/jeans",
+      "title": "Jeans"
+    },
+    {
+      "id": 3,
+      "to": "/jackets",
+      "title": "Jackets"
+    },
+    {
+      "id": 4,
+      "to": "/kurtas",
+      "title": "Kurtas"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Roadster Men Black Cotton T-Shirt",
+      "to": "/roadster-men-black-cotton-t-shirt",
+      "categoryId": "1",
+      "price": "259"
+    },
+    {
+      "id": 2,
+      "title": "Moda Rapido Cotton T-Shirt",
+      "to": "/moda-rapido-men-maroon-printed-cotton-t-shirt",
+      "categoryId": "1",
+      "price": "359"
+    },
+    {
+      "id": 3,
+      "title": "Campus Sutra T-Shirt",
+      "to": "/campus-sutra-men-blue-colourblocked-cotton-t-shirt",
+      "categoryId": "1",
+      "price": "319"
+    },
+    {
+      "id": 4,
+      "title": "Ether Men Solid Bomber Jacket",
+      "to": "/ether-men-grey-solid-bomber-jacket",
+      "categoryId": "3",
+      "price": "1339"
+    },
+    {
+      "id": 5,
+      "title": "Highlander Padded Jacket",
+      "to": "/highlander-men-black-padded-jacket",
+      "categoryId": "3",
+      "price": "758"
+    },
+    {
+      "id": 6,
+      "title": "Roadster Men Super Skinny Fit Jeans",
+      "to": "/roadster-men-black-super-skinny-fit-mid-rise-clean-look-stretchable-jeans",
+      "categoryId": "2",
+      "price": "1199"
+    },
+    {
+      "id": 7,
+      "title": "Here&Now Men Tapered Fit Jeans",
+      "to": "/herenow-men-black-tapered-fit-mid-rise-clean-look-stretchable-cropped-jeans",
+      "categoryId": "2",
+      "price": "1459"
+    },
+    {
+      "id": 8,
+      "title": "Deyann Men Solid Kurta Set",
+      "to": "/deyann-men-navy-blue-solid-kurta-with-pyjamas-nehru-jacket",
+      "categoryId": "4",
+      "price": "2236"
+    },
+    {
+      "id": 9,
+      "title": "Manyawar Men Kurta With Churidar",
+      "to": "/manyavar-men-yellow-kurta-with-churidar",
+      "categoryId": "4",
+      "price": "1999"
+    }
+  ]
+}

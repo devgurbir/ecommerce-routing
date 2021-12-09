@@ -1,8 +1,12 @@
 import axios from 'axios'
 import React, {useEffect, useState} from 'react'
 import {Link} from 'react-router-dom'
+import { AuthContext } from '../Context/AuthContextProvider'
+import { useContext } from 'react'
 
 export default function Navbar(){
+    const [isAuth, setIsAuth] = useContext(AuthContext)
+
     const [categories, setCategories] = useState([])
     
     const fetchCategories = () => {
@@ -20,7 +24,13 @@ export default function Navbar(){
 
     return(
         <nav style={{display:"flex", gap:"15px", justifyContent:"center", marginTop:"20px", marginBottom:"20px"}}>
-            {categories.map( c => <Link to={`/categories/${c.id}`}>{c.title}</Link>)}
+            <div style={{display: 'flex', gap:"10px", justifyContent:"space-between", border:"1px solid #ccc", padding: "10px" }}>
+                {categories.map( c => <Link to={`/categories/${c.id}`}>{c.title}</Link>)}
+            </div>
+
+            <div style={{padding: "10px", border: "1px solid black"}}>
+                {isAuth ? <div onClick={() => setIsAuth(false)}><Link to="/logout">Logout</Link></div> : <Link to="/login">Login</Link>}
+            </div>
         </nav>
     )
 }

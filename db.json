@@ -27,63 +27,81 @@
       "title": "Roadster Men Black Cotton T-Shirt",
       "to": "/roadster-men-black-cotton-t-shirt",
       "categoryId": "1",
-      "price": "259"
+      "price": "259",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 2,
       "title": "Moda Rapido Cotton T-Shirt",
       "to": "/moda-rapido-men-maroon-printed-cotton-t-shirt",
       "categoryId": "1",
-      "price": "359"
+      "price": "359",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 3,
       "title": "Campus Sutra T-Shirt",
       "to": "/campus-sutra-men-blue-colourblocked-cotton-t-shirt",
       "categoryId": "1",
-      "price": "319"
+      "price": "319",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 4,
       "title": "Ether Men Solid Bomber Jacket",
       "to": "/ether-men-grey-solid-bomber-jacket",
       "categoryId": "3",
-      "price": "1339"
+      "price": "1339",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 5,
       "title": "Highlander Padded Jacket",
       "to": "/highlander-men-black-padded-jacket",
       "categoryId": "3",
-      "price": "758"
+      "price": "758",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 6,
       "title": "Roadster Men Super Skinny Fit Jeans",
       "to": "/roadster-men-black-super-skinny-fit-mid-rise-clean-look-stretchable-jeans",
       "categoryId": "2",
-      "price": "1199"
+      "price": "1199",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 7,
       "title": "Here&Now Men Tapered Fit Jeans",
       "to": "/herenow-men-black-tapered-fit-mid-rise-clean-look-stretchable-cropped-jeans",
       "categoryId": "2",
-      "price": "1459"
+      "price": "1459",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 8,
       "title": "Deyann Men Solid Kurta Set",
       "to": "/deyann-men-navy-blue-solid-kurta-with-pyjamas-nehru-jacket",
       "categoryId": "4",
-      "price": "2236"
+      "price": "2236",
+      "imageURL": "https://placeimg.com/400/280/people"
     },
     {
       "id": 9,
       "title": "Manyawar Men Kurta With Churidar",
       "to": "/manyavar-men-yellow-kurta-with-churidar",
       "categoryId": "4",
-      "price": "1999"
+      "price": "1999",
+      "imageURL": "https://placeimg.com/400/280/people"
+    }
+  ],
+  "orders": [
+    {
+      "productsOrdere": [1, 2, 3],
+      "totalPrice": 1000,
+      "name": "Gurbir",
+      "address": "House Number 807, Sector 38A, Chandigarh",
+      "contactNo": "6280263283"
     }
   ]
 }

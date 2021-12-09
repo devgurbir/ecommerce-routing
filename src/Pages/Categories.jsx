@@ -20,12 +20,11 @@ const Categories = () => {
 
     useEffect(()=>{
         handleCategoryFetch();
-    }, [])
+    }, [id])
 
     return (
-        <div>
-            Dynamic Routing For Categories
-            {categoryData.map( product => <Product name={product.title} price={product.price}
+        <div style={{display: "flex", justifyContent: "space-evenly", gap:"20px", width:"80%", margin:"0 auto", flexWrap: "wrap"}}>
+            {categoryData.map( product => <Product imageURL = {product.imageURL} name={product.title} price={product.price}
              id={product.id} key={product.id} />)}
         </div>
     )

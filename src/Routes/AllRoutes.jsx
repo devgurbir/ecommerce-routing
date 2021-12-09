@@ -3,6 +3,9 @@ import ProductListing from "../Pages/ProductListing"
 import Categories from "../Pages/Categories"
 import Login from "../Pages/Login"
 import NotFound from "../Pages/NotFound"
+import PrivateRoutes from './PrivateRoutes'
+import Dashboard from "../Pages/Dashboard"
+import Settings from "../Pages/Settings"
 
 function AllRoutes(){
     return(
@@ -26,6 +29,15 @@ function AllRoutes(){
             <Route exact path="/login">
                 <Login />
             </Route>
+
+            <PrivateRoutes path="/dashboard">
+                <Dashboard />
+            </PrivateRoutes>
+
+            <PrivateRoutes path="/dashboard/settings">
+                <Settings />
+            </PrivateRoutes>
+
 
             <Route>
                 <NotFound />

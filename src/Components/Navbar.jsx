@@ -29,8 +29,11 @@ export default function Navbar(){
             </div>
 
             <div style={{padding: "10px", border: "1px solid black"}}>
-                {isAuth ? <div onClick={() => setIsAuth(false)}><Link to="/logout">Logout</Link></div> : <Link to="/login">Login</Link>}
+                {isAuth ? <div style={{textDecoration:"underline"}} onClick={() => setIsAuth(false)}>Logout</div> : <Link to="/login">Login</Link>}
+                {isAuth && <Link to="/dashboard">Dashboard</Link>}
             </div>
+
+            
         </nav>
     )
 }

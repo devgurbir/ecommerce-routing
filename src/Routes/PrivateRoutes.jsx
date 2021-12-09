@@ -10,12 +10,10 @@ function PrivateRoutes({path, children}){
         return <Redirect to="/login"/>
     }
 
-    return(
-                  
+    return(                  
             <Route exact path={path}>
                 {children}
             </Route>
-
     )
 }
 

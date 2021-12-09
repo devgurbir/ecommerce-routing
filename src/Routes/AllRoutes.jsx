@@ -30,11 +30,11 @@ function AllRoutes(){
                 <Login />
             </Route>
 
-            <PrivateRoutes path="/dashboard">
+            <PrivateRoutes exact path="/dashboard">
                 <Dashboard />
             </PrivateRoutes>
 
-            <PrivateRoutes path="/dashboard/settings">
+            <PrivateRoutes exact path="/dashboard/settings">
                 <Settings />
             </PrivateRoutes>
 

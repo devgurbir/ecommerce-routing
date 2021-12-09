@@ -3,11 +3,11 @@ import { AuthContext } from "../Context/AuthContextProvider"
 import { useContext } from "react"
 
 export default function Dashboard(){
-    const [isAuth] = useContext(AuthContext);
+    // const [isAuth] = useContext(AuthContext);
 
-    if(!isAuth){
-        return <Redirect to="/login" />
-    }
+    // if(!isAuth){
+    //     return <Redirect to="/login" />
+    // }
 
     return (
         <>

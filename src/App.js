@@ -9,6 +9,7 @@ function App() {
   const [isAuth, setIsAuth] = useContext(AuthContext);
   console.log(isAuth)
   return (
+    
     <div className="App">
       <Navbar />
       <AllRoutes />

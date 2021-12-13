@@ -28,7 +28,8 @@ export default function Navbar(){
                 {categories.map( c => <Link to={`/categories/${c.id}`}>{c.title}</Link>)}
             </div>
 
-            <div style={{padding: "10px", border: "1px solid black"}}>
+            <div style={{display: "flex", gap:"10px", padding: "10px", border: "1px solid black"}}>
+                <Link to="/showCart">Cart</Link>
                 {isAuth ? <div style={{textDecoration:"underline"}} onClick={() => setIsAuth(false)}>Logout</div> : <Link to="/login">Login</Link>}
                 {isAuth && <Link to="/dashboard">Dashboard</Link>}
             </div>

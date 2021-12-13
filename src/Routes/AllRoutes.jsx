@@ -6,12 +6,17 @@ import NotFound from "../Pages/NotFound"
 import PrivateRoutes from './PrivateRoutes'
 import Dashboard from "../Pages/Dashboard"
 import Settings from "../Pages/Settings"
+import ShowCart from "../Pages/ShowCart"
 
 function AllRoutes(){
     return(
         <Switch>
             <Route exact path="/">
                 <div>Homepage</div>
+            </Route>
+
+            <Route exact path="/showCart">
+                <ShowCart />
             </Route>
 
             <Route exact path="/categories">

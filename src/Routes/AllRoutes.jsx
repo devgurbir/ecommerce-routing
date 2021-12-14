@@ -23,6 +23,18 @@ function AllRoutes(){
                 The categories page
             </Route>
 
+            <Route exact path="/contact">
+                Contact
+            </Route>
+
+            <Route exact path="/aboutUs">
+                About Us
+            </Route>
+
+            <Route exact path="/faq">
+                FAQ
+            </Route>
+
             <Route exact path="/categories/:id">
                 <Categories />
             </Route>

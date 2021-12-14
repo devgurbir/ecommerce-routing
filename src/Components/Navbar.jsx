@@ -34,6 +34,13 @@ export default function Navbar(){
                 {isAuth && <Link to="/dashboard">Dashboard</Link>}
             </div>
 
+            <div style={{display: "flex", gap:"10px", padding: "10px", border: "1px solid black"}}>
+                <Link to="/aboutUs">About Us</Link>
+                <Link to="/faq">FAQ</Link>
+                <Link to="/contact">Contact</Link>
+                
+            </div>
+
             
         </nav>
     )

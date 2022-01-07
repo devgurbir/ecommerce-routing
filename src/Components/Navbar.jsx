@@ -25,6 +25,7 @@ export default function Navbar(){
     return(
         <nav style={{display:"flex", gap:"15px", justifyContent:"center", marginTop:"20px", marginBottom:"20px"}}>
             <div style={{display: 'flex', gap:"10px", justifyContent:"space-between", border:"1px solid #ccc", padding: "10px" }}>
+                <Link to="/product">All Products</Link>
                 {categories.map( c => <Link to={`/categories/${c.id}`}>{c.title}</Link>)}
             </div>
 

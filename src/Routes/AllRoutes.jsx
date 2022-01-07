@@ -7,6 +7,7 @@ import PrivateRoutes from './PrivateRoutes'
 import Dashboard from "../Pages/Dashboard"
 import Settings from "../Pages/Settings"
 import ShowCart from "../Pages/ShowCart"
+import AllProducts from "../Pages/AllProducts"
 
 function AllRoutes(){
     return(
@@ -37,6 +38,10 @@ function AllRoutes(){
 
             <Route exact path="/categories/:id">
                 <Categories />
+            </Route>
+
+            <Route exact path="/product">
+                <AllProducts />
             </Route>
 
             <Route exact path="/product/:id">
